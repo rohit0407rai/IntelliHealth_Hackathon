@@ -33,6 +33,8 @@ const Doctorscalendar = () => {
         
     }
 
+    
+
     const localData: EventSettingsModel = {
         dataSource: [{
             Subject: 'Bhavya',
@@ -42,20 +44,35 @@ const Doctorscalendar = () => {
         },
     ]
     };
+
+    let newAppointment;
+
+    const handleAddAppointment = (enteredAppointment) => {
+      newAppointment = {
+        ...enteredAppointment
+      }
+      localData.dataSource = [...localData.dataSource, newAppointment];
+      console.log(localData.dataSource)
+      
+      };
+
+
+  
   return (
-    <div className='h-screen w-1/3 bg-white mt-5 p-5 box-border rounded-xl'>
+    <div className='h-fit w-1/3 bg-white mt-5 p-5 box-border rounded-xl'>
         <div className='text-sm mb-5'>
         New Appointment
       </div>
-      <Appointmentform data={localData}/>
+      <Appointmentform onAddAppointment={handleAddAppointment}/>
       <div className='text-sm mb-5'>
         Appointments Calendar
       </div>
-      <ScheduleComponent currentView='Month' eventSettings={localData}>
+      <ScheduleComponent currentView='Month' eventSettings={localData} >
         <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
       </ScheduleComponent>
     </div>
   )
 }
+
 
 export default Doctorscalendar

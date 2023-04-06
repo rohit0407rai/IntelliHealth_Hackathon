@@ -5,7 +5,7 @@ import { IoPeopleOutline } from 'react-icons/io5'
 
 const Sidebar = () => {
   return (
-    <div className='w-1/6 mt-5 h-screen rounded-xl bg-white box-border px-5 py-5'>
+    <div className='w-1/6 mt-5 h-[900px] rounded-xl bg-white box-border px-5 py-5'>
         <div className='text-sm'>
             Menu
         </div>
