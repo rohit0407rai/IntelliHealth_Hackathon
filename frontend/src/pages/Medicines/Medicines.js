@@ -9,6 +9,7 @@ const Medicines = () => {
   const medData = [
     {
       id: 1,
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Aspirin",
         price: 5,
         content:
@@ -18,6 +19,7 @@ const Medicines = () => {
     },
     {
       id: 2,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
       name: "Ibuprofen",
       price: 8,
       content:
@@ -27,6 +29,7 @@ const Medicines = () => {
     },
     {
       id: 3,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Paracetamol",
         price: 3,
         content:
@@ -36,6 +39,7 @@ const Medicines = () => {
     },
     {
       id: 3,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Paracetamol",
         price: 3,
         content:
@@ -45,6 +49,7 @@ const Medicines = () => {
     },
     {
       id: 4,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Lisinopril",
         price: 12,
         content:
@@ -54,6 +59,7 @@ const Medicines = () => {
     },
     {
       id: 5,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Metformin",
         price: 7,
         content:
@@ -63,6 +69,7 @@ const Medicines = () => {
     },
     {
       id: 6,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Simvastatin",
         price: 15,
         content:
@@ -72,6 +79,7 @@ const Medicines = () => {
     },
     {
       id: 7,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Levothyroxine",
         price: 9,
         content:
@@ -81,6 +89,7 @@ const Medicines = () => {
     },
     {
       id: 8,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Amoxicillin",
         price: 6,
         content:
@@ -90,6 +99,7 @@ const Medicines = () => {
     },
     {
       id: 9,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Omeprazole",
         price: 10,
         content:
@@ -99,6 +109,7 @@ const Medicines = () => {
     },
     {
       id: 10,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Gabapentin",
         price: 11,
         content:
@@ -108,6 +119,7 @@ const Medicines = () => {
     },
     {
       id: 11,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Furosemide",
         price: 6,
         content:
@@ -117,6 +129,7 @@ const Medicines = () => {
     },
     {
       id: 12,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Tamsulosin",
         price: 13,
         content:
@@ -126,6 +139,7 @@ const Medicines = () => {
     },
     {
       id: 13,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Metoprolol",
         price: 8,
         content:
@@ -135,6 +149,7 @@ const Medicines = () => {
     },
     {
       id: 14,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Atorvastatin",
         price: 18,
         content:
@@ -144,6 +159,7 @@ const Medicines = () => {
     },
     {
       id: 15,
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfqvt9ikSrTf4TTl86HryCzX9WaYQaipdweQ&usqp=CAU',
         name: "Citalopram",
         price: 7,
         content:
@@ -169,11 +185,22 @@ const Medicines = () => {
       <section className='flex justify-between gap-6'>
         <Sidebar/>
 
-        <section className='w-full flex gap-5 mt-6 flex-wrap'>
+        <section className='w-full flex gap-5 mt-6 flex-wrap justify-center'>
           <Medicinecard info={medData[0]}/>
           <Medicinecard info={medData[1]}/>
           <Medicinecard info={medData[2]}/>
+          <Medicinecard info={medData[3]}/>
           <Medicinecard info={medData[4]}/>
+          <Medicinecard info={medData[5]}/>
+          <Medicinecard info={medData[6]}/>
+          <Medicinecard info={medData[7]}/>
+          <Medicinecard info={medData[8]}/>
+          <Medicinecard info={medData[9]}/>
+          <Medicinecard info={medData[10]}/>
+          <Medicinecard info={medData[11]}/>
+          <Medicinecard info={medData[12]}/>
+          <Medicinecard info={medData[13]}/>
+          <Medicinecard info={medData[14]}/>
         </section>
       </section>
     </div>
