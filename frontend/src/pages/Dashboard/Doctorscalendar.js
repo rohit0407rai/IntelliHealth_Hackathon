@@ -43,7 +43,7 @@ const Doctorscalendar = () => {
     ]
     };
   return (
-    <div className='h-screen w-1/3 bg-white mt-5 p-5 box-border rounded-xl'>
+    <div className='h-screen w-1/3 bg-white mt-5 p-5 fixed right-0 box-border rounded-xl'>
         <div className='text-sm mb-5'>
         New Appointment
       </div>
