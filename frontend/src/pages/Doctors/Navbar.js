@@ -1,4 +1,5 @@
 import React from "react";
+import Dropdown from "./Dropdown";
 
 const navbar = ({ filterItem, menuList }) => {
   return (
@@ -11,6 +12,7 @@ const navbar = ({ filterItem, menuList }) => {
                 className="btn-group__item"
                 onClick={() => filterItem(curElem)}>
                 {curElem}
+                <Dropdown/>
               </button>
             );
           })}

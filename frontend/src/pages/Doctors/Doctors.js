@@ -7,6 +7,7 @@ import { MdArrowBack } from 'react-icons/md'
 import Video from './Video';
 import Chat from './Chat';
 import './style.css';
+import Sidebar from '../Appointment/Sidebar';
 const uniqueList = [
   ...new Set(
     Menu.map((curElem) => {
@@ -39,20 +40,15 @@ const Doctors = () => {
     
   return (
     <>
-    <div className='bg-gradient-to-br from-[#e8f2fc] to-white h-screen w-full'>
-      <div className='left-2 mt-4'>
-                    
-                        <button>
-                            <Link to='/'>
-                            <MdArrowBack className='w-5 h-5' />
-
-                            </Link>
-                        </button>
+    <div className='bg-gradient-to-br from-[#e8f2fc] to-white h-full w-full'>
+      <div className='left-2 mt-2'>
                     
       </div>
           <Navbar filterItem={filterItem} menuList={menuList} />
-
-      <DoctorCard menuData={menuData} />
+        <div className='flex justify-between gap-5'>
+          <Sidebar/>
+          <DoctorCard menuData={menuData} />
+        </div>
       <Chat />
       <Video />
       </div>
