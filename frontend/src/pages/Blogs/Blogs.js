@@ -11,6 +11,7 @@ import Comm4 from '../../images/andres-urena-V7UoMNWsYsg-unsplash.jpg';
 import Comm5 from '../../images/jesse-orrico-Us3AQvyOP-o-unsplash.jpg';
 import Comm6 from '../../images/laurynas-mereckas-1TL8AoEDj_c-unsplash.jpg';
 import { BsSearch } from 'react-icons/bs';
+import Sidebar from '../Appointment/Sidebar';
 
 // import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 const Blogs = () => {
@@ -19,7 +20,7 @@ const Blogs = () => {
             <div>
               
                 <div className=" bg-gradient-to-br from-[#e8f2fc] to-white">
-                    <div className="  top-0">
+                    <main className="  top-0">
                         <h1 className="mt-4 mb-4 text-3xl font-bold text-blue-500 ml-7">Blogs</h1>
                         {/* <PhoneIcon />
                         <AddIcon boxSize={6} />
@@ -140,293 +141,298 @@ const Blogs = () => {
                                     </ul>
 
                         </div>
+                        
+                        <div className='flex'>
+                            <Sidebar/>
 
-                        {/* cards */}
+                            {/* cards */}
 
-                        <section className=" rounded-lg ">
-                            <div className="container px-6 py-10 mx-auto  ml-1  flex-wrap overscroll-auto">
+                            <section className=" rounded-lg ">
+                                <div className="mx-20 py-10 flex flex-wrap justify-center">
 
-                                <div className="grid grid-cols-2 gap-8 mt-8 md:mt-16 ml-1  md:grid-cols-2 flex-row ">
+                                    <div className="grid grid-cols-2 gap-8 mt-8 md:mt-16 ml-1  md:grid-cols-2">
 
 
-                                    <div className="lg:flex flex-row border-2  bg-[#99cccc] rounded-lg">
-                                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm1} alt="" />
+                                        <div className="lg:flex flex-row border-2  bg-white rounded-lg ">
+                                            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm1} alt="" />
 
-                                        <div className="flex flex-col justify-between py-6 lg:mx-6">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            The healing power of homeopathy
-                                            </a>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Rohit Rai</span>
-                                            <div className="flex items-center mx-12 ">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">2675</span>
-                                                </button>
+                                            <div className="flex flex-col justify-between py-6 lg:mx-6">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                The healing power of homeopathy
+                                                </a>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Rohit Rai</span>
+                                                <div className="flex items-center justify-around mx-12 ">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">2675</span>
+                                                    </button>
 
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">125</span>
-                                                </button>
-                                            </div>
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">125</span>
+                                                    </button>
+                                                </div>
 
-                                            <div className=''></div>
+                                                <div className=''></div>
 
-                                        </div>
-                                    </div>
-
-                                    <div className="lg:flex border-2 bg-[#99cccc] rounded-lg">
-                                        <img className="object-cover  w-full h-56 rounded-lg lg:w-64" src={Comm2} alt="" />
-
-                                        <div className="flex flex-col  justify-between py-6 lg:mx-6">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Transform your health with Ayurvedic principles and practices
-                                            </a>
-
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Krisha Borana</span>
-                                            <div className="flex items-center mx-12 mt-2">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">2500</span>
-                                                </button>
-
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">926</span>
-                                                </button>
                                             </div>
                                         </div>
-                                    </div>
 
+                                        <div className="lg:flex border-2 bg-white rounded-lg">
+                                            <img className="object-cover  w-full h-56 rounded-lg lg:w-64" src={Comm2} alt="" />
 
+                                            <div className="flex flex-col  justify-between py-6 lg:mx-6">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Transform your health with Ayurvedic principles and practices
+                                                </a>
 
-                                    <div className="lg:flex border-2 bg-[#99cccc]  ml-1 rounded-lg">
-                                        <img className="object-cover   w-full h-56  rounded-lg lg:w-64" src={Comm3} alt="" />
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Krisha Borana</span>
+                                                <div className="flex items-center justify-around mx-12 mt-2">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">2500</span>
+                                                    </button>
 
-                                        <div className="flex flex-col justify-between py-6 lg:mx-6">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Find your inner zen: the benefits of a regular yoga practice</a>
-
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Aryan Gupta</span>
-                                            <div className="flex items-center mx-12 mt-2">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">259</span>
-                                                </button>
-
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">63</span>
-                                                </button>
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">926</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div className="lg:flex border-2 bg-[#99cccc] rounded-lg ">
-                                        <img className="object-cover   w-full h-56 rounded-lg lg:w-64" src={Comm4} alt="" />
 
-                                        <div className="flex flex-col justify-between py-6 lg:px-2">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Get fit, feel great: the many benefits of regular exercise
-                                            </a>
 
-                                            <span className="text-sm  text-gray-500 dark:text-gray-300">Dr.Bhavya Poddar</span>
-                                            <div className="flex items-center mx-12 mt-2">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">253</span>
-                                                </button>
+                                        <div className="lg:flex border-2 bg-white  ml-1 rounded-lg">
+                                            <img className="object-cover   w-full h-56  rounded-lg lg:w-64" src={Comm3} alt="" />
 
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">97</span>
-                                                </button>
+                                            <div className="flex flex-col justify-between py-6 lg:mx-6">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Find your inner zen: the benefits of a regular yoga practice</a>
+
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Aryan Gupta</span>
+                                                <div className="flex items-center justify-around mx-12 mt-2">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">259</span>
+                                                    </button>
+
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">63</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div className="lg:flex bg-[#99cccc] rounded-lg border-2">
-                                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
+                                        <div className="lg:flex border-2 bg-white rounded-lg ">
+                                            <img className="object-cover   w-full h-56 rounded-lg lg:w-64" src={Comm4} alt="" />
 
-                                        <div className="flex flex-col  justify-between py-6 lg:px-2">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Heart disease prevention: tips for reducing your risk
-                                            </a>
+                                            <div className="flex flex-col justify-between py-6 lg:px-2">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Get fit, feel great: the many benefits of regular exercise
+                                                </a>
 
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
-                                            <div className="flex items-center mx-12 ">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">238</span>
-                                                </button>
+                                                <span className="text-sm  text-gray-500 dark:text-gray-300">Dr.Bhavya Poddar</span>
+                                                <div className="flex items-center justify-around mx-12 mt-2">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">253</span>
+                                                    </button>
 
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">289</span>
-                                                </button>
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">97</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div className="lg:flex bg-[#99cccc] rounded-lg border-2">
-                                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
+                                        <div className="lg:flex bg-white rounded-lg border-2">
+                                            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
 
-                                        <div className="flex flex-col  justify-between py-6 lg:px-2">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Heart disease prevention: tips for reducing your risk
-                                            </a>
+                                            <div className="flex flex-col  justify-between py-6 lg:px-2">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Heart disease prevention: tips for reducing your risk
+                                                </a>
 
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
-                                            <div className="flex items-center mx-12 ">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">238</span>
-                                                </button>
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
+                                                <div className="flex items-center justify-around mx-12 ">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">238</span>
+                                                    </button>
 
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">289</span>
-                                                </button>
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">289</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div className="lg:flex bg-[#99cccc] rounded-lg border-2">
-                                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
+                                        <div className="lg:flex bg-white rounded-lg border-2">
+                                            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
 
-                                        <div className="flex flex-col  justify-between py-6 lg:px-2">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Heart disease prevention: tips for reducing your risk
-                                            </a>
+                                            <div className="flex flex-col  justify-between py-6 lg:px-2">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Heart disease prevention: tips for reducing your risk
+                                                </a>
 
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
-                                            <div className="flex items-center mx-12 ">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">238</span>
-                                                </button>
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
+                                                <div className="flex items-center justify-around mx-12 ">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">238</span>
+                                                    </button>
 
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">289</span>
-                                                </button>
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">289</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div className="lg:flex bg-[#99cccc] rounded-lg border-2">
-                                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
+                                        <div className="lg:flex bg-white rounded-lg border-2">
+                                            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
 
-                                        <div className="flex flex-col  justify-between py-6 lg:px-2">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Heart disease prevention: tips for reducing your risk
-                                            </a>
+                                            <div className="flex flex-col  justify-between py-6 lg:px-2">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Heart disease prevention: tips for reducing your risk
+                                                </a>
 
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
-                                            <div className="flex items-center mx-12 ">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">238</span>
-                                                </button>
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
+                                                <div className="flex items-center justify-around mx-12 ">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">238</span>
+                                                    </button>
 
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">289</span>
-                                                </button>
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">289</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div className="lg:flex bg-[#99cccc] rounded-lg border-2">
-                                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
+                                        <div className="lg:flex bg-white rounded-lg border-2">
+                                            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
 
-                                        <div className="flex flex-col  justify-between py-6 lg:px-2">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Heart disease prevention: tips for reducing your risk
-                                            </a>
+                                            <div className="flex flex-col  justify-between py-6 lg:px-2">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Heart disease prevention: tips for reducing your risk
+                                                </a>
 
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
-                                            <div className="flex items-center mx-12 ">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">238</span>
-                                                </button>
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
+                                                <div className="flex items-center justify-around justify-around mx-12 ">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">238</span>
+                                                    </button>
 
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">289</span>
-                                                </button>
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">289</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div className="lg:flex bg-[#99cccc] rounded-lg border-2">
-                                        <img className="object-cover   rounded-lg w-full h-56  lg:w-64" src={Comm6} alt="" />
+                                        <div className="lg:flex bg-white rounded-lg border-2">
+                                            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={Comm5} alt="" />
 
-                                        <div className="flex flex-col justify-between py-6 lg:mx-6">
-                                            <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
-                                            Alternative treatments when antibiotics aren't necessary
-                                            </a>
+                                            <div className="flex flex-col  justify-between py-6 lg:px-2">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Heart disease prevention: tips for reducing your risk
+                                                </a>
 
-                                            <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Khushi oshi</span>
-                                            <div className="flex items-center align-middle  mx-12 mt-2">
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">239</span>
-                                                </button>
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Hari Sanghvi</span>
+                                                <div className="flex items-center justify-around mx-12 ">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">238</span>
+                                                    </button>
 
-                                                <button>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
-                                                    </svg>
-                                                    <span className="text-gray-500 ml-1">235</span>
-                                                </button>
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">289</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
+                                        <div className="lg:flex bg-white rounded-lg border-2">
+                                            <img className="object-cover   rounded-lg w-full h-56  lg:w-64" src={Comm6} alt="" />
+
+                                            <div className="flex flex-col justify-between py-6 lg:mx-6">
+                                                <a href="#" className="text-xl font-light text-gray-800 hover:underline dark:text-white ">
+                                                Alternative treatments when antibiotics aren't necessary
+                                                </a>
+
+                                                <span className="text-sm text-gray-500 dark:text-gray-300">Dr.Khushi oshi</span>
+                                                <div className="flex items-center align-middle justify-around  mx-12 mt-2">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">239</span>
+                                                    </button>
+
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 21H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v12a2 2 0 01-2 2h-4l-3 3z" />
+                                                        </svg>
+                                                        <span className="text-gray-500 ml-1">235</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
-                        </section>
-                    </div>
+                            </section>
+                        </div>
+                        
+                    </main>
                     <div className="col-span-2 w-64 fixed right-0">
                         {/* left side */}
 

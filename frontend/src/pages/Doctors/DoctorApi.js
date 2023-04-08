@@ -37,7 +37,7 @@ const Menu = [
         "category": "Neurologist",
         "location": "Boston, MA",
         "rating": 4.5,
-        "image": "https://example.com/images/dr005.jpg"
+        "image": "https://images.pexels.com/photos/4270088/pexels-photo-4270088.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "id": "DR006",
@@ -45,7 +45,7 @@ const Menu = [
         "category": "Orthopedist",
         "location": "Chicago, IL",
         "rating": 4.9,
-        "image": "https://example.com/images/dr006.jpg"
+        "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "DR007",
@@ -53,7 +53,7 @@ const Menu = [
         "category": "Psychiatrist",
         "location": "Seattle, WA",
         "rating": 4.4,
-        "image": "https://example.com/images/dr007.jpg"
+        "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "DR008",
@@ -61,7 +61,7 @@ const Menu = [
         "category": "Gynecologist",
         "location": "Miami, FL",
         "rating": 4.6,
-        "image": "https://example.com/images/dr008.jpg"
+        "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "DR009",
@@ -69,7 +69,7 @@ const Menu = [
         "category": "Orthopedist",
         "location": "Denver, CO",
         "rating": 4.7,
-        "image": "https://example.com/images/dr009.jpg"
+        "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "id": "d003",
@@ -77,7 +77,7 @@ const Menu = [
         "category": "Pediatrician",
         "location": "San Francisco, CA",
         "rating": 4.8,
-        "image_url": "https://example.com/images/dr-janet-lee.jpg",
+        "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "image_category": "Pediatrician"
       },
       {
@@ -86,7 +86,7 @@ const Menu = [
         "category": "Dermatologist",
         "location": "Los Angeles, CA",
         "rating": 4.6,
-        "image_url": "https://example.com/images/dr-michael-chen.jpg",
+        "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "image_category": "Dermatologist"
       },
     {
@@ -95,7 +95,7 @@ const Menu = [
         "category": "Orthopedist",
         "location": "San Diego, CA",
         "rating": 4.8,
-        "image": "https://example.com/images/dr010.jpg"
+        "image": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
     
   ];

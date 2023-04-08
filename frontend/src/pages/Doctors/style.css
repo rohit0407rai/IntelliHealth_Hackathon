@@ -26,9 +26,10 @@
   
   .main-card--cointainer {
     display: grid;
-    grid-template-columns: repeat(4, minmax(320px, 300px));
+    grid-template-columns: repeat(3, minmax(320px, 300px));
     grid-gap: 40px;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
   }
   
   .card-container {
@@ -48,7 +49,7 @@
   
   .card {
     background-color: #fff;
-    padding: 30px;
+    padding: 10px 30px;
     position: relative;
     box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
     z-index: 1;
@@ -56,6 +57,7 @@
   
   .card-body {
     display: inline-block;
+    width: 100%;
   }
   
   .card-number {
@@ -83,10 +85,10 @@
   
   .card-title {
     font-family: "Cormorant Garamond", serif;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 300;
-    line-height: 60px;
-    margin: 10px 0;
+    line-height: 20px;
+    margin: 5px 0;
     text-transform: capitalize;
   }
   
@@ -121,7 +123,7 @@
   .card-tag {
     float: right;
     margin: 5px 0 0;
-    border: 1px solid #aaa;
+    border: 2px solid rgb(59 130 246);
     padding: 10px 10px;
     cursor: pointer;
   }
