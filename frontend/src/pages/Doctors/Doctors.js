@@ -1,9 +1,20 @@
 import React from 'react'
+import {BsSearch} from 'react-icons/bs'
+import Sidebar from '../Appointment/Sidebar'
+import ImageCard from '../../components/Imagecard'
 
 const Doctors = () => {
+
+  // const doctorsInfo = [
+  //   {
+  //     image: 
+  //   },
+  // ]
+
   return (
+    
     <div>
-<h1>Doctors</h1>
+      Doctors
     </div>
   )
 }

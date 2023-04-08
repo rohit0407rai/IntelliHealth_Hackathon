@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 const Appointmentform = (props) => {
 
-    const [data, setData] = useState(props.data);
+    
     
 
     const [patientName, setPatientName] = useState('');
@@ -36,9 +36,8 @@ const Appointmentform = (props) => {
             StartTime: startTime,
             EndTime: endTime
         }
-        console.log(newAppointment)
-        // const newData = [...data , newAppointment]
-        // setData(newData);
+        
+        props.onAddAppointment(newAppointment);
         
         setPatientName('')
         setPatientDescription('')

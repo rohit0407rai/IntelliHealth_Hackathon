@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiHome } from 'react-icons/bi'
+import { BiHome, BiCalendar } from 'react-icons/bi'
 import { SlNotebook } from 'react-icons/sl'
 import { IoPeopleOutline } from 'react-icons/io5'
 import { GiLifeInTheBalance } from 'react-icons/gi'
@@ -13,9 +13,21 @@ const Sidebar = () => {
                 Menu
             </div>
             <ul >
-                <li className='flex items-center justify-start mt-5 gap-5 hover:text-blue-400'>
+            <li className='flex items-center justify-start mt-5 gap-5 hover:text-blue-400'>
                     <BiHome className='w-5 h-5 ' />
-                    <p className='text-lg '><button>Dashboard</button></p>
+                    <p className='text-lg '>
+                        <button>
+                            <Link to='/'>Home</Link>
+                            </button>
+                            </p>
+                </li>
+                <li className='flex items-center justify-start mt-5 gap-5 hover:text-blue-400'>
+                    <BiCalendar className='w-5 h-5 ' />
+                    <p className='text-lg '>
+                        <button>
+                            <Link to='appointment'>Appointment</Link>
+                            </button>
+                            </p>
                 </li>
                 <li className='flex items-center justify-start mt-5 gap-5 hover:text-blue-400'>
                     <SlNotebook className='w-5 h-5' />
