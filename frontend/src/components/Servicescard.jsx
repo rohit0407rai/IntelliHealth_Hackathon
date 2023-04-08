@@ -11,6 +11,7 @@ const Servicescard = (props) => {
         <figcaption className='text-sm text-black text-center'>
             {service.caption}
         </figcaption>
+        {/* <button className='flex text-center w-full'>Learn More &rarr;</button> */}
     </div>
   )
 }

@@ -107,7 +107,7 @@ const Home = () => {
     ]
     
   return (
-    <div className='mt-12 bg-gradient-to-br from-[#e8f2fc] to-white h-[3000px] '>
+    <div className='mt-12 bg-gradient-to-br from-[#e8f2fc] to-white h-[3000px]'>
       
       
       <section className='flex justify-between mx-10 pt-5'>
@@ -129,7 +129,7 @@ const Home = () => {
                 <div>
                     <h1 className='text-white text-5xl font-bold'>Find Health at Home with IntelliHealth</h1>
                     <p className='mt-3 text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <button className='mt-6 px-5 py-2 w-36 rounded-xl bg-white text-blue-500'><Link to='appointment'>Consult Now</Link></button>
+                    <button className='mt-6 px-5 py-2 w-36 rounded-xl bg-white text-blue-500  hover:text-blue-500'><Link to='appointment'>Consult Now</Link></button>
                 </div>
                 <img src={hero1}  className='w-6/12'/>
             </section>
@@ -163,7 +163,7 @@ const Home = () => {
             <section className='w-full py-5'>
                 <div className='flex items-end justify-between'>
                     <div className='text-3xl text-blue-500 font-semibold'>Find Medicines</div>
-                    <p className='text-blue-500'><Link to='doctors'>See more</Link></p>
+                    <p className='text-blue-500'><Link to='medicines'>See more</Link></p>
                 </div>
                     <div className='flex gap-5 py-10 items-start '>
                     <ImageCard info={medInfo[0]}/>

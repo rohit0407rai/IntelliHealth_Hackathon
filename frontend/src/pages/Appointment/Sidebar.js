@@ -7,8 +7,11 @@ import { GiMedicines } from 'react-icons/gi'
 import { FaStethoscope} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 const Sidebar = () => {
+    const handleHide = () => {
+        console.log()
+    }
     return (
-        <div className='w-1/6 mt-5 h-screen rounded-xl bg-white box-border px-5 py-5 ml-2'>
+        <div className=' w-1/6 mt-5 h-screen rounded-xl bg-white box-border px-5 py-5 ml-2' onClick={handleHide}>
             <div className='text-sm'>
                 Menu
             </div>
