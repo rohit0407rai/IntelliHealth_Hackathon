@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <div className='bg-gradient-to-br from-[#e8f2fc] to-white h-[1000px] w-full'>
       <Header />
-      <div className='flex flex-row-reverse justify-between h-screen'>
+      <div className='flex flex-row-reverse justify-between h-screen gap-5'>
         <Doctorscalendar/>
         <Sidebar/>
       </div>

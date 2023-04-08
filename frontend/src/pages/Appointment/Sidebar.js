@@ -25,7 +25,7 @@ const Sidebar = () => {
                     <BiCalendar className='w-5 h-5 ' />
                     <p className='text-lg '>
                         <button>
-                            <Link to='/appointment'>Appointment</Link>
+                            <Link to='appointment'>Appointment</Link>
                             </button>
                             </p>
                 </li>

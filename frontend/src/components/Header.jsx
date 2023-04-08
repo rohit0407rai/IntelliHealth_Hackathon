@@ -5,7 +5,7 @@ import profile from '../images/profile.jpg'
 const Hearder = () => {
   const Username = 'Jamie'
   return (
-    <div className='sticky top-0 z-10 text-black px-10 py-5 flex justify-between items-center mt-10 '>
+    <div className='sticky top-10 z-10 text-black px-10 py-5 flex justify-between items-center mt-10 '>
       <div className='font-semibold text-3xl text-blue-500'>
         IntelliHealth
       </div>

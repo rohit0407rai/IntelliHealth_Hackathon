@@ -59,7 +59,7 @@ const Doctorscalendar = () => {
 
   
   return (
-    <div className='h-fit w-1/3 bg-white mt-5 p-5 box-border rounded-xl'>
+    <div className='h-fit w-full bg-white mt-5 p-5 box-border rounded-xl'>
         <div className='text-sm mb-5'>
         New Appointment
       </div>

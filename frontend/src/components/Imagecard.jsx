@@ -17,7 +17,7 @@ const Imagecard = (props) => {
           <p class=" text-center text-lg text-black">
             {info.desc}
           </p>
-        </li>
+    </li>
   )
 }
 
