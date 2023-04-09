@@ -75,6 +75,14 @@ const Sidebar = () => {
                         </Link></button></p>
                 </li>
 
+
+                <li className='flex items-center justify-start mt-5 gap-5 hover:text-blue-400'>
+                    <FaStethoscope className='w-5 h-5' />
+                    <p className='text-lg'><button><Link to='/predict'>
+                           Prediction
+                        </Link></button></p>
+                </li>
+
             </ul>
         </div>
     )

@@ -12,9 +12,13 @@ import Signup from './pages/Signup/Signup';
 import Dashboard from './pages/DocSide/Dashboard';
 import DoctorInfo from './pages/DocSide/DoctorInfo'
 import DocAppointment from './pages/DocSide/DocAppointment';
+
 import Predict from './pages/Predict/Predict';
 import Payment from './components/Payment';
 import DocBlog from './pages/DocSide/DocBlog'
+
+
+
 
 
 function App() {
@@ -37,6 +41,8 @@ function App() {
         <Route path='/medicines' element={<Medicines/>}></Route>
         <Route path='/doctors' element={<Doctors/>}></Route>
         <Route path='/predict' element={<Predict/>}></Route>
+
+
         <Route path='/payment' element={<Payment/>}></Route>
         
       </Routes>
