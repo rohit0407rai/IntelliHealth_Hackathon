@@ -7,6 +7,7 @@ import hero1 from '../../images/PIC1.png'
 import Appointment from '../Appointment/Apointment'
 import Servicescard from '../../components/Servicescard'
 import Testimonial from '../../components/Testimonial'
+import Chatbot from '../../components/Chatbot'
 
 
 const Home = () => {
@@ -108,7 +109,7 @@ const Home = () => {
     
   return (
     <div className='mt-12 bg-gradient-to-br from-[#e8f2fc] to-white h-[3000px]'>
-      
+      <Chatbot/>
       
       <section className='flex justify-between mx-10 pt-5'>
         <h1 className='text-3xl text-blue-500 font-semibold'>IntelliHealth</h1>  

@@ -1,4 +1,6 @@
 import React from 'react'
+// import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js"
+import { Link } from 'react-router-dom'
 
 const Medicinecard = (props) => {
     const info = props.info
@@ -19,6 +21,7 @@ const Medicinecard = (props) => {
           <p className=" mt-3 text-left text-md text-gray-600">
             {info.content}
           </p>
+          <button className='bg-blue-500 text-white px-3 py-1 mt-3'><Link to='/payment'>Buy Now</Link></button>
           
     </li>
   )
