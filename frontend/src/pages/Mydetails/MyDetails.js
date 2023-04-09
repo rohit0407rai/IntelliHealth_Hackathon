@@ -18,7 +18,7 @@ const MyDetails = () => {
                 <Personalinfo/>
                 <div className='flex flex-row justify-evenly font-Li w-full mr-5'>
                     <div className='flex flex-col gap-6  px-1 pt-2 pb-6 rounded-md mt-'>
-                        <div className='flex justify-around'>
+                        <div className='flex justify-center'>
                             <div className='bg-green-500 w-fit h-fit rounded-sm px-3 py-1 text-white'>Healthy</div>
                             <div className='bg-red-500 w-fit h-fit rounded-sm px-3 py-1 text-white'>Unhealthy</div>
                         </div>

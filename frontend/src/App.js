@@ -12,8 +12,12 @@ import Signup from './pages/Signup/Signup';
 import Dashboard from './pages/DocSide/Dashboard';
 import DoctorInfo from './pages/DocSide/DoctorInfo'
 import DocAppointment from './pages/DocSide/DocAppointment';
-import Predict from './pages/prediction/Predict';
+
+import Predict from './pages/Predict/Predict';
 import Payment from './components/Payment';
+import DocBlog from './pages/DocSide/DocBlog'
+
+
 
 
 
@@ -29,13 +33,16 @@ function App() {
         <Route path='/appointment'element={<Appointment/>}></Route>
         <Route path='/docappointment'element={<DocAppointment/>}></Route>
         <Route path='/blogs' element={<Blogs/>}></Route>
+        <Route path='/blogs' element={<Blogs/>}></Route>
+        <Route path='/docblogs' element={<DocBlog/>}></Route>
         <Route path='/mydetails' element={<MyDetails/>}></Route>
         <Route path='/docdetails' element={<DoctorInfo/>}></Route>
         <Route path='/lifestyle' element={<Lifestyle/>}></Route>
         <Route path='/medicines' element={<Medicines/>}></Route>
         <Route path='/doctors' element={<Doctors/>}></Route>
         <Route path='/predict' element={<Predict/>}></Route>
-        
+
+
         <Route path='/payment' element={<Payment/>}></Route>
         
       </Routes>

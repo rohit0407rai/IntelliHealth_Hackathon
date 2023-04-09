@@ -3,12 +3,17 @@ import DocSidebar from './DocSidebar'
 import LineChart from './LineChart'
 import SingleLine from './SingleLine'
 import { SignalIcon } from '@heroicons/react/24/outline'
+import Header from '../../components/Header'
+import Barchart from '../../components/Barchart'
+import BarChartMedicine from '../../components/BarChartMedicine'
+import RadarChart from '../../components/RadarChart'
 
 
 const Dashboard = () => {
   return (
     <div className='bg-gradient-to-br from-[#e8f2fc] to-white'>
-      <h1 className='pl-10 pt-10 text-3xl text-blue-500 font-semibold'>IntelliHealth</h1>
+      <Header/>
+
       <section className='flex gap-5'>
         <DocSidebar/>
         <section className='w-full'>
@@ -22,19 +27,20 @@ const Dashboard = () => {
                 <p className='text-center'>Days &rarr;</p>
                 </div>
                 <div className='bg-white w-[30%] rounded-lg'>
-                    section2
+                <Barchart/>
                 </div>
                 <div className='bg-white w-[30%] rounded-lg'>
-                    section3
+                  <Barchart/>
                 </div>
             </div>
             <div className='h-[60%] w-full flex gap-8 justify-center px-5 py-2'>
                 <div className='w-1/2 bg-white rounded-xl '>
-                <LineChart/>
+                  <LineChart/>
                 <p className='text-center'>Age &rarr;</p>
                 </div>
                 <div className='w-1/2 bg-white rounded-xl'>
-                    Chart2
+                <BarChartMedicine/>
+                <p className='text-center'>Drugs &rarr;</p>
                 </div>
             </div>
         </section>

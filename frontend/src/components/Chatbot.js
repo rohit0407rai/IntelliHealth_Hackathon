@@ -19,7 +19,9 @@ export class Chatbot extends Component {
 
   render() {
     return (
-      <div>C</div>
+
+      <div></div>
+
     )
   }
 }

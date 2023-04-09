@@ -8,7 +8,7 @@
     "@emotion/styled": "^11.10.6",
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.17",
-    "@paypal/paypal-js": "^5.1.6",
+
     "@paypal/react-paypal-js": "^7.8.3",
     "@syncfusion/ej2-react-schedule": "^21.1.38",
     "@testing-library/jest-dom": "^5.16.5",
