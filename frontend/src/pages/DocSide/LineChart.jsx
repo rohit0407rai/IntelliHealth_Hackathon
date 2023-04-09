@@ -5,42 +5,48 @@ import { useState } from 'react';
 ChartJS.register(Title, Tooltip, LineElement, Legend, CategoryScale, LinearScale, PointElement)
 
 
-const MyResponsiveLine = () => {
+const LineChart = () => {
   const [data, setData] = useState({
-    labels: ["Jan", 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    labels: ["18-24", '25-44', '45-64', '65-74', '75-84', '>84'],
     datasets: [
       {
-        label: "Pan-40",
-        data: [14, 10, 8, 7, 6, 4, 8, 23, 12, 9, 1, 5],
+        label: "Asthama",
+        data: [14, 10, 8, 7, 6, 4],
         borderColor: 'yellow', 
         fill: true
       },
       {
-        label: "Rantac",
-        data: [5, 14, 13, 25, 35, 37, 25, 12, 18, 5, 12],
+        label: "Heart Disease",
+        data: [5, 14, 13, 25, 35, 37],
         borderColor: 'Red'
       },
       {
-        label: "Dolo",
-        data: [7, 13, 26, 33, 37, 43, 30, 23, 43, 12, 22],
+        label: "Arthritis",
+        data: [7, 13, 26, 33, 37, 43],
         borderColor: 'orange'
       },
       {
-        label: "Crocin",
-        data: [1, 3, 5, 16, 23, 21, 54, 24, 15, 63, 30, 9],
+        label: "Cancer",
+        data: [1, 3, 5, 16, 23, 21],
         borderColor: 'Green'
       }, 
+      {
+        label: "Diabetes",
+        data: [1, 2, 7, 16, 17, 16],
+        borderColor: 'blue', 
+        
+      }
       
     ]
   })
   
   return (
     <div>
-      <Line data={data}></Line>
+      <Line height={200} data={data}></Line>
     </div>
     
   )
   
 }
 
-export default MyResponsiveLine
+export default LineChart
