@@ -7,6 +7,7 @@ import hero1 from '../../images/PIC1.png'
 import Appointment from '../Appointment/Apointment'
 import Servicescard from '../../components/Servicescard'
 import Testimonial from '../../components/Testimonial'
+import Chatbot from '../../components/Chatbot'
 
 
 const Home = () => {
@@ -108,6 +109,7 @@ const Home = () => {
     
   return (
     <div className='mt-12 bg-gradient-to-br from-[#e8f2fc] to-white h-[3000px]'>
+        <Chatbot />
       
       
       <section className='flex justify-between mx-10 pt-5'>
@@ -127,9 +129,9 @@ const Home = () => {
         <div className='w-full h-screen py-5'>
             <section id="hero" className='bg-blue-500 mx-32 flex justify-between items-center pl-5 rounded-xl mb-8'>
                 <div>
-                    <h1 className='text-white text-5xl font-bold'>Find Health at Home with IntelliHealth</h1>
+                    <h1 className='text-white text-5xl font-bold'>Empowering your health journey with IntelliHealth</h1>
                     <p className='mt-3 text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <button className='mt-6 px-5 py-2 w-36 rounded-xl bg-white text-blue-500  hover:text-blue-500'><Link to='appointment'>Consult Now</Link></button>
+                    <button className='mt-6 px-5 py-2 w-36 rounded-xl bg-white text-blue-500  hover:text-blue-500'><Link to='/doctors'>Consult Now</Link></button>
                 </div>
                 <img src={hero1}  className='w-6/12'/>
             </section>

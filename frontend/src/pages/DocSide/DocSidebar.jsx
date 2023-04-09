@@ -21,7 +21,7 @@ const DocSidebar = () => {
                     <BiHome className='w-5 h-5 ' />
                     <p className='text-lg '>
                         <button>
-                            <Link to='/'>Home</Link>
+                            <Link to='/dashboard'>Home</Link>
                             </button>
                             </p>
                 </li>
@@ -37,7 +37,7 @@ const DocSidebar = () => {
                     <SlNotebook className='w-5 h-5' />
                     <p className='text-lg'>
                         <button>
-                            <Link to='/blogs'>Blogs</Link>
+                            <Link to='/docblogs'>Blogs</Link>
                         </button>
                     </p>
                 </li>

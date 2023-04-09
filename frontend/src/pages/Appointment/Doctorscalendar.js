@@ -37,10 +37,28 @@ const Doctorscalendar = () => {
 
     const localData: EventSettingsModel = {
         dataSource: [{
-            Subject: 'Bhavya',
-            Description: '',
+            Subject: 'Meeting for routine checkup',
+            Description: 'Dr.Bhavya Poddar',
             EndTime: new Date(2023, 3, 11, 6, 30),
             StartTime: new Date(2023, 3, 11, 4, 0)
+        },
+        {
+          Subject: 'Meeting for Migrane',
+          Description: 'Dr.Rohit Rai',
+          EndTime: new Date(2023, 3, 15, 7, 30),
+          StartTime: new Date(2023, 3, 15, 11, 0)
+        },
+        {
+          Subject: 'Meeting for soarness in throat',
+          Description: 'Dr.Aryan Gupta',
+          EndTime: new Date(2023, 3, 15, 8, 30),
+          StartTime: new Date(2023, 3, 15, 9, 0)
+        },
+        {
+          Subject: 'Not Available',
+          Description: 'Dr.Krisha Borana',
+          EndTime: new Date(2023, 3, 13, 6, 30),
+          StartTime: new Date(2023, 3, 13, 2, 0)
         },
     ]
     };
